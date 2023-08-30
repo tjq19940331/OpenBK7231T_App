@@ -29,7 +29,7 @@ const char* security_names[] = {
 };
 
 // This must return correct IP for both SOFT_AP and STATION modes,
-// because, for example, javascript control panel requires it
+// because, for example, javascript control panel requires
 const char* HAL_GetMyIPString()
 {
 	struct netif* netif = tls_get_netif();
